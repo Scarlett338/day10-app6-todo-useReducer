@@ -1,0 +1,108 @@
+
+/* 
+#780000
+#FDF0D5 
+#003049
+ */
+
+.GoalContainer {
+  text-align: center;
+  margin: auto;
+}
+
+/* title */
+
+.title{
+  padding: 15px;
+  text-align: center;
+  border-bottom: #003049 solid 10px;
+  margin: 0 50px;
+  margin-bottom: 10px;
+  font-size: 2.8em;
+}
+
+.homeButton {
+  text-align: right;
+}
+
+.homeButton i{
+  font-size: 2em;
+  position: fixed;
+  right: 10px;
+  bottom: 20px;
+  background-color: #FDF0D5;
+  border: #003049 solid 2px;
+}
+
+@media screen and (max-width:991px) {
+  .ProductList .productCard{
+    width: 99%;
+    height: 100%;
+  }
+}
+
+
+/* Button */
+
+button{
+  background-color: #FDF0D5;
+  color: #780000;
+  border-radius: 12px;
+  width: 150px;
+  height: 35px;
+  border: #780000 solid 3px;
+  margin: 10px;
+  font-size: 1.4em;
+}
+
+button:hover{
+  color: #FDF0D5;
+  background-color: #780000;
+}
+
+
+.GoalContainer input{
+  margin: 5px;
+  height: 35px;
+  border: #003049 solid 3px;
+  font-size: 1.2em;
+}
+
+.GoalContainer span{
+  font-size: 1.2em;
+}
+
+.smallButton2{
+  width: 120px;
+  height: 30px;
+  font-size: 1em;
+}
+
+.result{
+  margin: 30px;
+}
+
+/* footer */
+
+.Footer{
+  height: 150px;
+  background-color: #003049; 
+/*   background-color: #000; */
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Footer .col{
+  width: 49%;
+}
+
+
+
+
+/* 
+#780000
+#FDF0D5 
+#003049
+ */
